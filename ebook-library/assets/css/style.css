@@ -1,0 +1,49 @@
+/* Custom Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(26, 35, 126, 0.25);
+}
+
+.btn-primary-custom:focus {
+    box-shadow: 0 0 0 0.25rem rgba(26, 35, 126, 0.5);
+}
+
+/* Custom alerts */
+.alert {
+    border-radius: 8px;
+}
+
+/* Footer styles */
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #d1d9ff !important;
+}
+
+.breadcrumb {
+    display: none !important;
+}
+
+/* Atau jika menggunakan class lain untuk breadcrumb */
+nav[aria-label="breadcrumb"] {
+    display: none;
+}
